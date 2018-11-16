@@ -7,6 +7,16 @@
 # BlueJ files
 *.ctxt
 
+
+
+/bin/
+/build/
+/target/
+/hanwha/
+/war/
+
+
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
