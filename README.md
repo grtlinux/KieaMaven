@@ -146,7 +146,7 @@ DOS>
 - [Maven 빠르게 시작(퀵 가이드)](http://araikuma.tistory.com/445 "")
 - [Maven-Web 응용 프로그램 개발](http://araikuma.tistory.com/449 "Maven-Web 응용 프로그램 개발")
 - [tomcat7-maven-plugin - 메이븐에서 톰캣 구동해서 app deploy 하기](https://www.lesstif.com/pages/viewpage.action?pageId=14090451 "tomcat7-maven-plugin - 메이븐에서 톰캣 구동해서 app deploy 하기")
-- [Maven Tomcat plugin 설치 및 웹프로젝트 생성방법](http://jijs.tistory.com/entry/Maven-Tomcat-plugin-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%9B%B9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1%EB%B0%A9%EB%B2%95 "Maven Tomcat plugin 설치 및 웹프로젝트 생성방법")
+- [Maven Tomcat plugin 설치 및 웹프로젝트 생성방법](http://jijs.tistory.com/entry/Maven-Tomcat-plugin-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%9B%B9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1%EB%B0%A9%EB%B2%95 "Maven Tomcat plugin 설치 및 웹프로젝트 생성방법"): deploy method
 - [Maven에서 Tomcat을 실행시켜 결과를 확인해보자..](https://zgundam.tistory.com/39 "Maven에서 Tomcat을 실행시켜 결과를 확인해보자..")
 - [Run Maven Java Web Application in Tomcat Maven Plugin](https://o7planning.org/en/10133/run-maven-java-web-application-in-tomcat-maven-plugin "Run Maven Java Web Application in Tomcat Maven Plugin")
 - []( "")
