@@ -1,5 +1,7 @@
-## KieaMaven
-Maven projects
+KieaMaven
+=========
+
+Maven project
 
 ```
 DOS> set M2_HOME=C:\hanwha\apache-maven-3.3.3
@@ -62,10 +64,70 @@ DOS> mvn archetype:generate
 DOS> 
 DOS> 
 DOS> 
-DOS> 
-DOS> 
-DOS> 
-DOS> 
+```
+
+Maven Web Project with jetty web
+
+```
+DOS> mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp
+
+DOS> type pom.xml
+	<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+			http://maven.apache.org/maven-v4_0_0.xsd">
+		
+		<modelVersion>4.0.0</modelVersion> 
+		
+		<groupId>com.devkuma</groupId> 
+		<artifactId>SampleWebApp</artifactId> 
+		<packaging>war</packaging> 
+		<version>1.0-SNAPSHOT</version> 
+		<name>SampleWebApp Maven Webapp</name> 
+		<url>http://maven.apache.org</url> 
+		
+		<properties> 
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+			<jetty.version>9.4.8.v20171121</jetty.version>
+		</properties> 
+		
+		<dependencies>
+			<dependency> 
+				<groupId>junit</groupId> 
+				<artifactId>junit</artifactId> 
+				<version>3.8.1</version> 
+				<scope>test</scope> 
+			</dependency> 
+			<dependency> 
+				<groupId>org.eclipse.jetty</groupId> 
+				<artifactId>jetty-server</artifactId> 
+				<version>${jetty.version}</version> 
+			</dependency> 
+			<dependency> 
+				<groupId>org.eclipse.jetty</groupId> 
+				<artifactId>jetty-webapp</artifactId> 
+				<version>${jetty.version}</version>
+			</dependency> 
+		</dependencies>
+		<build> 
+			<finalName>SampleWebApp</finalName> 
+			<plugins> 
+				<plugin>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-maven-plugin</artifactId>
+					<version>${jetty.version}</version>
+				</plugin> 
+			</plugins>
+		</build> 
+	</project>
+
+DOS> mvn package
+
+DOS> mvn install
+
+DOS> mvn jetty:run
+
 DOS> 
 DOS> 
 DOS> 
@@ -79,10 +141,17 @@ DOS>
 
 
 ### References
-> [Maven 기초 사용법](http://javacan.tistory.com/entry/MavenBasic "")  
-> [Maven 을 이용한 프로젝트 생성 및 활용](http://unabated.tistory.com/entry/Maven-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-%EB%B0%8F-%ED%99%9C%EC%9A%A9 "")  
-> [Maven 빠르게 시작(퀵 가이드)](http://araikuma.tistory.com/445 "")  
-> []( "")  
+- [Maven 기초 사용법](http://javacan.tistory.com/entry/MavenBasic "")
+- [Maven 을 이용한 프로젝트 생성 및 활용](http://unabated.tistory.com/entry/Maven-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-%EB%B0%8F-%ED%99%9C%EC%9A%A9 "")
+- [Maven 빠르게 시작(퀵 가이드)](http://araikuma.tistory.com/445 "")
+- [Maven-Web 응용 프로그램 개발](http://araikuma.tistory.com/449 "Maven-Web 응용 프로그램 개발")
+- []( "")
+- []( "")
+- []( "")
+- []( "")
+- []( "")
+- []( "")
+
 .....
 
 
