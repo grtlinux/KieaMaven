@@ -13,7 +13,7 @@ springboot-test-01
 
 References
 ----------
-- []( ""):
+- [Spring Boot Hello World Example – JSP](https://www.mkyong.com/spring-boot/spring-boot-hello-world-example-jsp/ "Spring Boot Hello World Example – JSP"):
 - []( ""):
 - []( ""):
 - []( ""):
