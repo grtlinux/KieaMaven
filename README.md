@@ -151,7 +151,7 @@ DOS>
 - [Run Maven Java Web Application in Tomcat Maven Plugin](https://o7planning.org/en/10133/run-maven-java-web-application-in-tomcat-maven-plugin "Run Maven Java Web Application in Tomcat Maven Plugin")
 - [Linux에 Azure App Service에 Spring Boot JAR 파일 웹앱 배포](https://docs.microsoft.com/ko-kr/java/azure/spring-framework/deploy-spring-boot-java-app-with-maven-plugin?view=azure-java-stable "Linux에 Azure App Service에 Spring Boot JAR 파일 웹앱 배포"):
 - [Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/ "Building an Application with Spring Boot")
-- []( "")
+- [STS를 이용한 Spring Boot 웹 프로젝트 시작하기](http://millky.com/@origoni/post/1000 "STS를 이용한 Spring Boot 웹 프로젝트 시작하기")
 - []( "")
 - []( "")
 - []( "")
